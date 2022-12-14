@@ -1,13 +1,16 @@
 :root {
   --primary-color: #9f575d;
+  --accent-color:#9A666E;
+  --text-color: #black;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .logo {
-  max-height: 40px;
+  max-height: 50px;
 }
 body {
   margin-top: 100px;
+  background-color: #F8F6F5 !important;
 }
 
 h1,
@@ -19,26 +22,50 @@ h3 {
 h1 {
   font-size: 120px !important;
   font-family: "alike";
+  color:var(--text-color)
 }
 
 h2 {
-    padding-top: 100px;
+  padding-top: 50px;
   font-size: 48px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;;
+  color:var(--text-color)
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  font-family: 'Montserrat', sans-serif;;
+  color:var(--text-color)
+}
+.subhead{
+  padding: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;;
+  color:var(--text-color);
+  text-align: center;
+
+}
+h4 {
+  padding-top: 100px ;
+  font-size: 55px !important;
+  font-weight: bold;
+  font-family: "alike";
+  color:var(--text-color)
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
+  font-family: "scope one";
+  color:var(--text-color) ;
 }
 .hero{
-  background-color: #e2cdce;
+  background-color: #B0ADA1;
   text-align: center;
-  padding: 80px 20px;
+  padding: 80px 80px;
 }
 .navigation-links {
   display: flex;
@@ -55,7 +82,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color);
+  background: var(--accent-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
@@ -65,8 +92,8 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .homepage-link {
