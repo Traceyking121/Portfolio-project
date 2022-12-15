@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Tracey King is a front-end developer based in New York, check out her projects and contact her for job inquiries"
+    />
+    <link
+      rel="stylesheet"
+      href="src/styles.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Tracey King | Profile</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,15 +31,9 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="src/styles.css" />
-    <title>About me - Tracey King</title>
-    <meta
-      name="description"
-      content="About Tracey King, a front-end developer based in New York"
-    />
   </head>
   <body>
-   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #F8F6F5 ">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="images/tklogo.png" alt="" class="logo"
@@ -38,28 +47,34 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span
+            class="navbar-toggler-icon"
+          ></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav"
+        >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/" tilte="Homepage"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active"
+                class="nav-link"
                 href="/about.html"
-                title="About Tracey King"
                 >About</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="/contact.html"
-                title="Contact Tracey King"
+                href="/about.html#contact"
                 >Contact</a
               >
             </li>
@@ -67,51 +82,37 @@
         </div>
       </div>
     </nav>
-    <h1 class="text-center pt-5">About me</h1>
-    <h3 class="text-center">Front-end developer from New York City</h3>
-    <div class="about-paragraphs text-center">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <script type="text/javascript" style="display:none">
-//<![CDATA[
-window.__mirage2 = {petok:"ZOs4gjWK7MEaADu6xymUX6nKNIDc2bR_Vh01Cwxsma4-1800-0"};
-//]]>
-</script>
-<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
-<img data-cfsrc="/images/yoga.png" class="img-fluid p-2 mb-4 shadow rounded" alt="Yoga project" style="display:none;visibility:hidden;" /><noscript><img
-            src="/images/yoga.png"
-            class="img-fluid p-2 mb-4 shadow rounded"
-            alt="Yoga project"
-          /></noscript>
+<div class="about-hero">
+     <div class="row">
+        <div class="col-md-6">
+          <img src="images/me.jpg" alt="image Tracey King" class="me img-fluid m-auto" width=" 300px" style="text-align: center;"/>
         </div>
-        <div class="col-sm-4">
-          <img data-cfsrc="/images/weather.png" class="img-fluid p-2 mb-4 shadow rounded" alt="Weather project" style="display:none;visibility:hidden;" /><noscript><img
-            src="/images/weather.png"
-            class="img-fluid p-2 mb-4 shadow rounded"
-            alt="Weather project"
-          /></noscript>
+        <div class="col-md-6">
+          <h2 class="title-about pb-md-2">About me</h2>
+
+          <p class="text-about pb-md-4">
+            Front-end Developer from New York City, <br>Inventor, software developer, and always a dog lover</br><br> I'm passionate about designing intuitive software and crafting experiences that are beautiful. </br> Discover more on <a href="https://www.linkedin.com/in/juliette-rose1/">
+              <i class="fa-brands fa-linkedin-in icone"></i>
+            </a>
+ 
+
+          </p>
         </div>
-        <div class="col-sm-4">
-          <img data-cfsrc="/images/yogurt.png" class="img-fluid p-2 mb-4 shadow rounded" alt="Yogurt project" style="display:none;visibility:hidden;" /><noscript><img
-            src="/images/yogurt.png"
-            class="img-fluid p-2 mb-4 shadow rounded"
-            alt="Yogurt project"
-          /></noscript>
-        </div>
-      </div>
-    </div>
-    <div id="contact">
-        <h2>📮 Contact me</h2>
-        <a href="mailto:traceyking121@gmail.com" class="email-link"> traceyking121@gmail.com </a>
-    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
    
 </body>
 </html>
